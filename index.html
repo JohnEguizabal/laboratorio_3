@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Revisar Password</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-cont">
+            <h1>Validar Contraseña</h1>
+        </div>
+    </header>
+    <div id="main">
+        <form id="formulario" onsubmit="validarPass(); return false;">
+                <label for="pass">Ingrese la Contraseña.</label>
+                <input type="password" name="pass" id="pass">
+            <input type="submit" id="enviar"></button>
+            <div id="respuesta">
+                <p id="texto"></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
