@@ -30,7 +30,7 @@ function validarPass() {
     }
     else if (passw == 0) {
         validacion.innerHTML = "la contraseña contiene muy pocos caracteres...";
-        estilo.style.backgroundColor = "#e69138"
+        estilo.style.backgroundColor = "#FFBF61"
     }
     else if (novocal >= 3) {
         validacion.innerHTML = "Contraseña no cumple con los requisitos, tiene " + novocal + " consonantes";
@@ -38,7 +38,7 @@ function validarPass() {
     }
     else {
         validacion.innerHTML = "La contraseña cumple con la seguridad";
-        estilo.style.backgroundColor = "#59ed9c"
+        estilo.style.backgroundColor = "#9BEC00"
         
     }
 
